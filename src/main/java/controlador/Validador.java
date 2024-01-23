@@ -49,7 +49,7 @@ public class Validador extends HttpServlet {
       		
       		//2: validar
       		try {
-      			if(daoUsuario.validar(usuario, password)>0) {
+      			if(daoUsuario.validar(usuario, password)<1) {
       				msg = "Usuario y Contraseña correctos";
       				valido= 1;
       			}else {

@@ -16,7 +16,7 @@ public static int validar(String usuario, String password) {
 		PreparedStatement ps;
 		ResultSet rs;
 		String us = "";
-		int valido = 1;
+		int valido = 0;
 		
 		try {
 			
