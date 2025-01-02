@@ -10,7 +10,7 @@ public class Conexion {
 	public Connection conectar() {
 	try {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/clinica","root","samy2023");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/myconstruction","root","samy2023");
 		System.out.print("Conectado a DB ");
 	}catch(Exception e) {}
 	

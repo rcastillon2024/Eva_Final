@@ -66,7 +66,7 @@ public class Validador extends HttpServlet {
       		
       		if (valido > 0) {
       		//4: selccionar proxima vista
-      		RequestDispatcher despachador = request.getRequestDispatcher("/Agregar.jsp");
+      		RequestDispatcher despachador = request.getRequestDispatcher("/main.jsp");
       		
       		//5: preparar los datos para vista seleccionada
       		request.setAttribute("mensaje",msg);
